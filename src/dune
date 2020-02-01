@@ -1,0 +1,5 @@
+(library
+ (name sqlite3_gadt)
+ (libraries base sqlite3)
+ (preprocess
+  (pps ppx_base ppx_let ppx_custom_printf)))
